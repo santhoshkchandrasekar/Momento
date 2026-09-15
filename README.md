@@ -1,9 +1,9 @@
-# Moment
+# Momento
 
 > **Read. Moments. Worth. Sharing.**
 > IE7374 · MLOps · Group 23 · Northeastern University
 
-Moment is a private reading platform that uses machine learning to match intellectually compatible readers. Users capture book passages as visual "moments," write personal reflections, and are quietly matched with readers who think and feel similarly about literature — without performative social media posting.
+Momento is a private reading platform that uses machine learning to match intellectually compatible readers. Users capture book passages as visual "moments," write personal reflections, and are quietly matched with readers who think and feel similarly about literature — without performative social media posting.
 
 This repository contains the **full MLOps pipeline** across four integrated components: a data pipeline (Airflow + TFDV), an agent-based compatibility model (Gemini 2.5 Flash), a FastAPI production pipeline (Cloud SQL → BigQuery → Cloud Run), and a monitoring stack (Google Cloud Monitoring + Grafana).
 
